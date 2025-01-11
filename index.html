@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- BOOTSTRAP 5 CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" />
+
+    <!-- ANIMATE.CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+
+    <!-- JAVASCRIPT CDNS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header class="header" style="z-index: 1;">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container p-2 animated fadeInDownBig">
+                <a class="navbar-brand" href="#" style="color: #161616;">Quiz Virtual Game</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown link</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <form class="container-fluid justify-content-start">
+                    <button class="btn btn-outline-info me-2" type="button" style="background-color: #161616;">Game Inquiry? Reach Out</button>
+                    <button class="btn btn-outline-info me-2" type="button" style="background-color: #161616;">Try Now, No Opt-In →</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main__div-h1">
+            <h1 class="main__title animated fadeInLeftBig">Elevate Your <br> Virtual Events</h1>
+            <div>
+                <h4 class="main__subtitle animated fadeInRightBig">
+                    <span style="color: aliceblue;">Host interactive trivia challenges with themed rooms and flexible access options. Deliver the most <br> engaging questions and educational content directly to players, creating a fun and enriching experience as <br> they compete to showcase their general knowledge. Let me know if you need further adjustments! <br></span>
+                </h4>
+            </div>
+            <br>
+            <div>
+                <form class="container-fluid justify-content-start">
+                    <button class="btn btn-outline-info me-2 animated fadeInRightBig" type="button" style="background-color: #161616;">Experience It Now, No Signup Needed</button>
+                    <button class="btn btn-outline-info me-2 animated fadeInLeftBig" type="button" style="background-color: #161616;">Experience the Full Potential</button>
+                </form>
+            </div>
+        </div>
+        <br>
+        <div class="category-buttons">
+            <button id="historyBtn" class="btn btn-outline-secondary m-2">History</button>
+            <button id="geographyBtn" class="btn btn-outline-secondary m-2">Geography</button>
+            <button id="biologyBtn" class="btn btn-outline-secondary m-2">Biology</button>
+            <button id="mathBtn" class="btn btn-outline-secondary m-2">Mathematics</button>
+            <button id="chemistryBtn" class="btn btn-outline-secondary m-2">Chemistry</button>
+        </div>
+        <br><br><br><br><br>
+        <figure class="figure">
+            <div class="figure_div">
+                <div class="animated rotateIn">
+                    <a href="#history"><img src="history.png" alt="History Category" title="Everything is History" width="200" height="200"></a>
+                    <figcaption>History</figcaption>
+                </div>
+                <div class="animated rotateIn">
+                    <a href="#geography"><img src="geography.png" alt="Geography Category" title="For travelers only" width="200" height="200"></a>
+                    <figcaption>Geography</figcaption>
+                </div>
+                <div class="animated rotateIn">
+                    <a href="#biology"><img src="biology.png" alt="Biology Category" title="We need Biology" width="200" height="200"></a>
+                    <figcaption>Biology</figcaption>
+                </div>
+                <div class="animated rotateIn">
+                    <a href="#math"><img src="mathematics.png" alt="Mathematics Category" title="We need Mathematics" width="200" height="200"></a>
+                    <figcaption>Mathematics</figcaption>
+                </div>
+                <div class="animated rotateIn">
+                    <a href="#chemistry"><img src="chemistry.png" alt="Chemistry Category" title="We need Chemistry" width="200" height="200"></a>
+                    <figcaption>Chemistry</figcaption>
+                </div>
+            </div>
+        </figure>
+        <br><br><br><br><br>
+        <div class="main__video animated rotateInUpLeft">
+            <video id="history" width="900" controls style="border-radius: 25px; border: 10px solid #0b76e0">
+                <source src="ambient.mp4" type="video/mp4">
+            </video>
+            <br><br>
+            <button class="btn btn-outline-info me-2" type="button" style="background-color: #161616;">
+                <a href="interfaz.html">Dive into History Now – No Signup Required</a>
+            </button>
+        </div>
+        <br><br><br><br>
+        <div class="main__video">
+            <video id="geography" width="900" controls style="border-radius: 25px; border: 10px solid #0b76e0">
+                <source src="ambient01.mp4" type="video/mp4">
+            </video>
+            <br><br>
+            <button class="btn btn-outline-info me-2" type="button" style="background-color: #161616;">
+                Dive into Explore Geography – No Signup Required
+            </button>
+        </div>
+        <br><br><br><br>
+        <div class="main__video">
+            <video id="biology" width="900" controls style="border-radius: 25px; border: 10px solid #0b76e0">
+                <source src="ambient2.mp4" type="video/mp4">
+            </video>
+            <br><br>
+            <button class="btn btn-outline-info me-2" type="button" style="background-color: #161616;">
+                Dive into Biology Quest – No Signup Required
+            </button>
+        </div>
+        <br><br><br><br>
+        <div class="main__video">
+            <video id="math" width="900" controls style="border-radius: 25px; border: 10px solid #0b76e0">
+                <source src="ambient3.mp4" type="video/mp4">
+            </video>
+            <br><br>
+            <button class="btn btn-outline-info me-2" type="button" style="background-color: #161616;">
+                <a href="interfaz2.html">Dive into Math Mastery – No Signup Required</a>
+            </button>
+        </div>
+        <br><br><br><br>
+        <div class="main__video">
+            <video id="chemistry" width="900" controls style="border-radius: 25px; border: 10px solid #0b76e0">
+                <source src="ambient4.mp4" type="video/mp4">
+            </video>
+            <br><br>
+            <button class="btn btn-outline-info me-2" type="button"

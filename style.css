@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Oi&family=Quicksand:wght@300..700&family=Rubik+Vinyl&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    background: #a80077;
+    background: -webkit-linear-gradient(to top, #66ff00, #a80077);
+    background: linear-gradient(to top, #66ff00, #a80077);
+
+}
+
+body, div, ul, nav, header, footer, a, li, label {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar-brand {
+    font-family: "Oi", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.collapse {
+    font-family: fantasy;
+    font-weight: 400;
+    margin-left: 18%;
+    text-transform: uppercase;
+    word-spacing: 5%;
+
+}
+
+.main__div-h1, .main__video {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 2% 0 2% 0;
+}
+
+.main__title {
+font-size: 72px;
+font-weight: 900;
+color: #FFBE86;
+}
+
+.main__subtitle {
+font-size: 18px;
+font-weight: bold;
+line-height: 30px;
+}
+
+/* CATEGORY OPTIONS */
+.figure>div {
+display: flex;
+flex-direction: row;
+justify-content: center;
+text-align: center;
+gap: 96px;
+margin-left: 70px;
+}
+
+figcaption {
+font-family: 'Display';
+font-size: 18px;
+font-weight: 600;
+color: aliceblue;
+}
+
+
+/* Header QUERIES */
+
+@media screen and (min-width: 600px) {
+.header, .navbar {
+animation: header-movement both;
+animation-timeline: scroll();
+ position: sticky;
+ top: 0;
+ }
+}
+
+/* ANIMATIONS */
+
+@keyframes header-movement {
+ from {
+ background-color: transparent;
+ }
+to {
+background-color: aliceblue;
+ }
+}
+
+
